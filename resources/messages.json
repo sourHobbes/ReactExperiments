@@ -1,0 +1,16 @@
+{
+    "messages": {
+        "0": {
+            "message": "Hi there, how are you?",
+            "date": "Wed, 08 Jul 2015 18:14:27 GMT",
+            "author": "Sourabh Dugar",
+            "profilePic": "https://lh3.googleusercontent.com/-kGkHyGvjdn4/AAAAAAAAAAI/AAAAAAAABbQ/xoNcOK2Y6XA/s120-c/photo.jpg"
+        },
+        "1": {
+            "message": "I am fine, and you?",
+            "date": "Wed, 08 Jul 2015 18:15:27 GMT",
+            "author": "Goku",
+            "profilePic":"https://lh3.googleusercontent.com/-kGkHyGvjdn4/AAAAAAAAAAI/AAAAAAAABbQ/xoNcOK2Y6XA/s120-c/photo.jpg"
+        }
+    }
+}

@@ -20,7 +20,7 @@ class ChannelList extends React.Component {
     render() {
         var channelNodes = this.state.channels.map((channel) => {
             return (
-                <Channel key={channel} channel={channel} onClick={this.state.handleClick}/>   
+                <Channel key={channel} channel={channel}/>   
             ) 
         });
         

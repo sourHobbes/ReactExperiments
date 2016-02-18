@@ -29,12 +29,13 @@ class MessageBox extends React.Component {
         if(evt.keyCode == 13 && trim(evt.target.value) != '') {
             evt.preventDefault();
             this.firebaseRef.push({
-                message: this.state.message
+                message: this.state.message,
+                date: Date()
             });
+            console.log("Sent a new message: ", this.state.message);
             this.setState({
                 message: ''
             })
-            console.log("Sent a new message: ", evt.target.value);
         }
     }
 
